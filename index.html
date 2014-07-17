@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tetris</title>
+		<style type="text/css">
+			body {
+				font: 15px sans-serif;
+				background: #EDEDED;
+			}
+			
+			#gameCanvas {
+				margin-top: 10px;
+				// border: 1px #AAA solid;
+				padding-left: 0;
+				padding-right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<img id="b1" src="images/1.png" style="display: none" />
+		<img id="b2" src="images/2.png" style="display: none" />
+		<img id="b3" src="images/3.png" style="display: none" />
+		<img id="b4" src="images/4.png" style="display: none" />
+		<img id="b5" src="images/5.png" style="display: none" />
+		<img id="b6" src="images/6.png" style="display: none" />
+		<img id="b7" src="images/7.png" style="display: none" />
+		<img id="animation" src="images/animation.png" style="display: none" />
+		<img id="startScreen" src="images/startScreen.png" style="display: none" />
+		<img id="gameOver" src="images/gameOver.png" style="display: none" />
+		<img id="frame" src="images/frame.png" style="display: none" />
+
+		
+		<canvas id="gameCanvas" width="540" height="600">
+		</canvas>
+		
+		<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+		
+		<div style="margin-left: auto; margin-right: auto; text-align: center;">
+			<p>A basic Tetris clone implemented HTML5 & JavaScript.</p>
+			<p>Created for educational & testing purposes. Heavily stylized to mask the mediocrity of the code.</p>
+			<p>Blocks designed by <a href="http://yekopi.deviantart.com/">YekoPi</a></p>
+			<p>Source code available at <a href="github">GitHub</a></p>
+			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="P3QU4KRHNMNKJ">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+			</p>
+		</div>
+		
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js">
+		</script>
+		
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js">
+		</script>
+		
+		<script type="text/javascript" src="Animation.js">
+		</script>
+		
+		<script type="text/javascript" src="SceneManager.js">
+		</script>
+		
+		<script type="text/javascript" src="Tetromino.js">
+		</script>
+		
+		<script type="text/javascript" src="Tetris.js">
+		</script>
+		
+		<script type="text/javascript" src="Game.js">
+		</script>
+		
+
+	</body>
+</html>
