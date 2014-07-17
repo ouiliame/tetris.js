@@ -6,4 +6,4 @@ Created for eductional & testing purposes, for the sake of demonstration.
 Heavily stylized to mask the mediocrity of the code.
 
 
-[Screenshot](http://ouiliame.github.io/tetris.js/images/screenshot.png)
+![Screenshot](http://ouiliame.github.io/tetris.js/images/screenshot.png)
