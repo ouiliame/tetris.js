@@ -198,6 +198,7 @@ function Game(canvas, ctx) {
 					that.player.r = 0;
 					that.player.c = 3;
 					that.player.nextPiece =  tets[Math.floor(Math.random()*tets.length)];
+					that.player.holdPiece = 0;
 					
 					that.state = {
 						options: {
