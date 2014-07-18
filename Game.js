@@ -188,7 +188,7 @@ function Game(canvas, ctx) {
 			}
 		} else if (that.state.gameState === "gameOver") {
 			switch (event.keyCode) {
-				case 80: // SPACE
+				case 80: // P
 					event.preventDefault();
 
 					that.tetris = new Tetris(ctx);
@@ -198,8 +198,8 @@ function Game(canvas, ctx) {
 					that.player.r = 0;
 					that.player.c = 3;
 					that.player.nextPiece =  tets[Math.floor(Math.random()*tets.length)];
-					that.player.holdPiece = 0;
-					
+					that.player.heldPiece = 0;
+
 					that.state = {
 						options: {
 							showStats: false
